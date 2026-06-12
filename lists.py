@@ -134,3 +134,7 @@ print(course_str)
 # Splitting the values of the string back to a list
 new_list = course_str.split(' - ') # Exact opposite of Join method
 print(new_list)
+
+# Empty List
+empty_list = []
+empty_list = list()

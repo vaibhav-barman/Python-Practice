@@ -28,3 +28,7 @@ print(tuple_2)
 
 # print(tuple_1)
 # print(tuple_2)
+
+# Empty Tuple
+empty_tuple = []
+empty_tuple = tuple()
