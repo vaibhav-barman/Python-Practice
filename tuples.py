@@ -1,6 +1,8 @@
 # Tuples are very similar to list but with one difference, you cant modify a tuple
 # Immutable
 
+# () Round Brackets / Parentheses are used in tuples
+
 # Explaining the difference
 
 # Mutable - Lists - use these if you want modification
