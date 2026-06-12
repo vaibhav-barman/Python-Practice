@@ -1,5 +1,5 @@
 # List of values - [] Square Brackets are used to store values in a list
-# Mutable 
+# Mutable and Ordered
 
 courses = ['History', 'Maths', 'Physics', 'CompSci']
 courses_2 = ['Civics', 'Education']

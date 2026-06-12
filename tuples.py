@@ -1,5 +1,5 @@
 # Tuples are very similar to list but with one difference, you cant modify a tuple
-# Immutable
+# Immutable but Ordered
 
 # () Round Brackets / Parentheses are used in tuples
 
