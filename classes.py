@@ -7,34 +7,34 @@
 
 
 # Creating a Class
-# class Employee:
-#     pass
+class Employee:
+    pass
 
 # Difference between a class and an instance of a class
 # So our class is basically a blueprint for creating instances and each unique employee that we create using our employee class will be an instance of that class
 
 # These below statements are called instances of Employee class
-# emp1 = Employee()
-# emp2 = Employee()
+emp1 = Employee()
+emp2 = Employee()
 # Each of these are going to be their own unique instances of the employee class
 
-# print(emp1) # Output: <__main__.Employee object at 0x0000026617786E40>
-# print(emp2) # Output: <__main__.Employee object at 0x0000026617A14CD0>
+print(emp1) # Output: <__main__.Employee object at 0x0000026617786E40>
+print(emp2) # Output: <__main__.Employee object at 0x0000026617A14CD0>
 
 # Instance variables contains data that is unique to each instance
 
-# emp1.first = 'Corey'
-# emp1.last = 'Schafer'
-# emp1.email = 'corey.schafer@company.com'
-# emp1.pay = 50000
+emp1.first = 'Corey'
+emp1.last = 'Schafer'
+emp1.email = 'corey.schafer@company.com'
+emp1.pay = 50000
 
-# emp2.first = 'Test'
-# emp2.last = 'User'
-# emp2.email = 'test.user@company.com'
-# emp2.pay = 60000
+emp2.first = 'Test'
+emp2.last = 'User'
+emp2.email = 'test.user@company.com'
+emp2.pay = 60000
 
-# print(emp1.email)
-# print(emp2.email)
+print(emp1.email)
+print(emp2.email)
 
 # We dont get much benefit of using classes this way 25-36 lines
 
@@ -59,16 +59,16 @@ emp2 = Employee('Test', 'User', 60000)
 # When we run these Employee the __init__ method will run automatically
 # So emp1 will be passed as self and then it will set all of these attributes, emp1.first = 'Corey'
 
-# print(emp1)
-# print(emp2)
+print(emp1)
+print(emp2)
 
 print(emp1.email)
 print(emp2.email)
 
 # Printing the full name of the emp1 and emp2
 # Method 1
-# print(f'{emp1.first} {emp1.last}') 
-# print(f'{emp2.first} {emp2.last}')
+print(f'{emp1.first} {emp1.last}') 
+print(f'{emp2.first} {emp2.last}')
 
 # Instead let's create a method within our class that allows us to put this functionality in one place, so within our class here
 # Lines 48-49
